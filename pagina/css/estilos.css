@@ -1,0 +1,454 @@
+
+* {
+  margin:0;
+  padding:0;
+}
+ 
+header {
+  margin-top:10px;
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+    position: relative;
+}
+ 
+nav {
+  top:-20px;
+  position: absolute;
+  left:0;
+  right:0;
+  margin:20px auto;
+  max-width:1000px;
+  width:90%;
+}
+ 
+nav ul {
+  list-style:none;
+}
+
+
+
+ 
+nav > ul {
+  display:table;
+  width:100%;
+ 
+  position:relative;
+}
+
+
+
+ 
+nav > ul li {
+  display:table-cell;
+}
+ 
+/*Sub-menu*/
+nav > ul > li:hover > ul {
+  display:block;
+  height:100%;
+}
+
+
+
+
+
+ 
+nav > ul > li > ul {
+  display:block;
+  position:absolute;
+  left:0;
+  right:0;
+  overflow:hidden;
+  height:0%;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+
+
+
+
+
+ 
+nav > ul li a {
+  color:#fff;
+  display:block;
+  line-height:20px;
+  padding:20px;
+  position: relative;
+  text-align:center;
+  text-decoration:none;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+ 
+nav > ul > li > ul > li a:hover {
+  background:#5da5a2;
+}
+ 
+nav > ul > li > a span {
+  background:#174459;
+  display:block;
+  height:100%;
+  width:100%;
+  left:0;
+  position:absolute;
+  top:-55px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+ 
+nav > ul > li > a span .icon {
+  display:block;
+  line-height:60px;
+}
+ 
+nav > ul > li > a:hover > span {
+  top:0;
+}
+ 
+/*Colores*/
+nav ul li a .primero {
+  background:#0e5061;
+}
+ 
+nav ul li a .segundo {
+  background:#5da5a2;
+}
+ 
+nav ul li a .tercero {
+  background:#f25724;
+}
+ 
+nav ul li a .cuarto {
+  background:#174459;
+}
+ 
+nav ul li a .quinto {
+  background:#37a4d9;
+}
+
+
+
+.cinema-body {
+  background: url(../img/fondo.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-inverse {
+  background-color: rgba(8, 45, 94, 0.65);
+  min-height: 10%;
+  border: none;
+  border: 2px solid gray;
+}
+
+
+
+.logo-img {
+  width: 100px;
+}
+
+.parallax{
+  min-height: 80px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+
+.jumbotron {
+  background: url(../img/cartelera.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 200px;
+  border-radius: 5px solid red !important;
+  margin-bottom: 0px;
+}
+
+.jumbotron-img {
+  width: 100%;
+  margin-top: 20px;
+  margin-right: -300px;
+}
+
+.jumbotron-text {
+  font-size: 16px;
+  margin-top: 90px;
+  color: #FFFFFF;
+  margin-left: 300px;
+}
+
+.redes-sociales {
+  margin-top: 30px;
+  margin-left: 300px;
+}
+
+.img-social {
+  width: 40px;
+  height: 40px;
+}
+
+.img-movies {
+  height: 150px;
+  width: 200px;
+  padding: 6px;
+  margin-top: 22px;
+
+}
+
+.movie-title {
+  color: #FFFFFF;
+}
+
+.welcome-title {
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+
+.titulo-cartelera {
+  min-height: 10px;
+  background-color: rgba(8, 45, 94, 0.95);
+  margin-top: -5px;
+}
+
+.titulo-cartelera2 {
+  
+  background-color: rgba(2, 25, 25, 0.9);
+  margin-top: -10px;
+
+}
+
+.titulo-cartelera3 {
+  margin-top: -90px;
+}
+
+
+.titulo-text {
+	
+  font-size: 23px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  padding: 15px;
+  border: 2px solid gray;
+}
+
+.titulo-text2 {
+  font-size: 28px;
+  font-weight: bolder;
+  border: 2px solid gray;
+  color: gray;
+  padding: 15px;
+}
+
+.row{
+  text-align: center;
+	margin-top: -4px;
+}
+
+.movies-row {
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 430px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.movies-row-last {
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 525px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#posicion{
+	margin-top: -150px;
+}
+
+.movies-column {
+  margin-top: 5px;
+  min-height: 330px;
+  border: 1px dashed #FFFFFF;
+}
+.left-column {
+  border-right: 1px dashed #FFFFFF;
+}
+
+.row-centered {
+  text-align:center;
+}
+
+.services-text {
+  color: #FFFFFF;
+  margin-top: 13px;
+}
+
+.user_data {
+  margin-top: 10px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.input-element {
+  width: 100%;
+  height: 28px;
+  padding: 10px;
+  color: #FFFFFF;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.btn-save {
+  width: 40%;
+  background-color: rgba(8, 45, 94, 0.95);
+  color: #FFFFFF;
+}
+
+.label-class {
+  color: #FFFFFF;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+@media (max-width: 770px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  .titulo-text {
+    font-size: 15px;
+  }
+
+  .right-column {
+    display: none;
+  }
+
+  .movies-row {
+    padding-left: 0px;
+    padding-right: 0px;
+    min-height: 400px;
+  }
+
+  .container-fluid{
+    margin-top: 60px;
+  }
+
+  .movies-column {
+    min-height: 230px;
+  }
+
+  .jumbotron {
+    min-height: 380px;
+  }
+
+  .jumbotron-img {
+    width: 150px;
+    margin-top: 20px;
+  }
+
+  .img-movies {
+    height: 133px;
+    padding: 6px;
+    margin-top: 22px;
+  }
+.google-maps {
+
+        position: relative;
+        padding-bottom: 75%;
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: center;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+
+}
+
+
+#megi{
+  box-shadow: 5px 5px 10px 0.3px;
+}
+
+#final{
+
+	font-size: 1.3em;
+	border-top: solid 2px red;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+p{
+	font-weight: bolder;
+
+}
+
+h4{
+	margin: 20px;
+	color: black;
+	text-shadow: 1px 4px 6px red;
+	font-weight: bolder;
+	font-size: 26px;
+}
+
+h2{
+  margin: 20px;
+  color: black;
+  text-shadow: 1px 4px 6px red;
+  font-weight: bolder;
+  font-size: 26px;
+}
+#imagen{
+	width: 20px;
+	height: 15px;
+}
+
+#universs{
+
+bottom: 10px;
+right: 10px;
+height: 80px;
+padding: 10px;
+position: fixed;
+width: 150px;
+}
+
+#result{
+  background-color: #454545;
+  color: white;
+  text-align-last: center;
+}
+.img-rounded {
+    height: 30px;
+    padding: 6px;
+    margin-top: 22px;
+    position: right;
+
+
+
+
+
+
+

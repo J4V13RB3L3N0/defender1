@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<script type="text/javascript">
+	</script>
+	<title>Formulario</title>
+	<style type="text/css">
+		
+		h1{
+			text-align: center;
+			border: 2px groove black;
+			margin: 0 500px 0 400px;
+			
+		}
+
+		p{
+			 font-family: algerian;
+		}
+
+		fieldset{
+			border: 2px dashed gray;
+		}
+
+		
+	</style>
+</head>
+
+<body style="background-image: url(https://monteverdy.files.wordpress.com/2012/12/backgrounddefault.jpg);"onload="alert('Datos Requeridos')">
+<dd><h1><font color="red"> Formulario</font></h1><br/>
+	<form>
+		<fieldset> 
+			<fieldset>	
+			<p>Nombres <br/>
+				<input type="text" placeholder="Ingrese su nombre" autofocus="required" required>	
+			</p>
+			<p>Apellidos<br/>
+				<input type="text" placeholder="Ingrese su apellido" autofocus="required" required>
+			</p>
+			<p>Email <br/>
+				<input type="email" id="email_usuario" placeholder="Ejem:and@gmail.com" autofocus="required" required>
+			</p>
+			</fieldset>
+			<p>Seleccione el color<br/>
+				<input type="color">
+			</p>
+			<p>Fecha<br/>
+				<input type="date">
+			</p>
+			<p>Archivos Planos, Word,Excel,PDF entre otros<br/>
+				<input type="file">
+			</p>
+		</legend>	
+			<p>Telefono<br/>
+				<input type="tel">
+			</p>
+			<p for="genero">Genero: <br/>
+				</p>	
+				<label>Masculino</label><input type="radio" name="genero"><br/>
+				<label>Femenino</label><input type="radio" name="genero">
+		
+			<p for="recomend" >Recomendado por: <br/>
+				<select name="recomend">
+					<option>Google</option>
+					<option>Facebook</option>
+					<option>Messenger</option>
+				</select>
+			</p>
+			<p>Reset<br/>
+				<input type="reset">
+			</p>
+			<p>Envio del formulario<br/> 
+				<nav><font color="red">
+				<button  type='button' class='btn btn-primary btn-save form-control' >	
+				<a href="../empandas.html" autofocus="required" required>
+				ENVIAR
+				</a>
+				</button>
+				</nav>
+			</p>
+				
+				
+		</fieldset>	
+
+
+		
+
+
+
+	</form>
+
+
+</body>
+</html>
